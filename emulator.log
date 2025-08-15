@@ -1,0 +1,28 @@
+nohup: ignoring input
+i  emulators: Starting emulators: hosting
+⚠  hub: Error when trying to check port 4403 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:4403
+⚠  hub: Port 4400 is available on 127.0.0.1 but not ::1. This may cause issues with some clients.
+⚠  hub: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json
+⚠  hub: emulator hub unable to start on port 4400, starting on 4403 instead.
+⚠  logging: Error when trying to check port 4503 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:4503
+⚠  logging: Port 4500 is available on 127.0.0.1 but not ::1. This may cause issues with some clients.
+⚠  logging: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json
+⚠  logging: Logging Emulator unable to start on port 4500, starting on 4503 instead.
+⚠  emulators: It seems that you are running multiple instances of the emulator suite for project open-lovable-f47cb. This may result in unexpected behavior.
+i  hosting[open-lovable-f47cb]: Serving hosting files from: public
+✔  hosting[open-lovable-f47cb]: Local server: http://127.0.0.1:5100
+⚠  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project.
+
+[90m┌─────────────────────────────────────────────────────────────┐[39m
+[90m│[39m ✔  All emulators ready! It is now safe to connect your app. [90m│[39m
+[90m└─────────────────────────────────────────────────────────────┘[39m
+
+[90m┌──────────[39m[90m┬────────────────┐[39m
+[90m│[39m[33m Emulator [39m[90m│[39m[33m Host:Port      [39m[90m│[39m
+[90m├──────────[39m[90m┼────────────────┤[39m
+[90m│[39m Hosting  [90m│[39m 127.0.0.1:5100 [90m│[39m
+[90m└──────────[39m[90m┴────────────────┘[39m
+  Emulator Hub host: 1i  hosting: 127.0.0.1 - - [15/Aug/2025:23:14:24 +0000] "GET / HTTP/1.1" 200 - "https://studio.firebase.google.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2025:23:14:24 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "https://5000-firebase-open-lovable-1755275937035.cluster-5mev4ivexje3muwzgozxbrtrie.cloudworkstations.dev/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+tps://studio.firebase.google.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2025:23:14:24 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "https://5002-firebase-open-lovable-1755275937035.cluster-5mev4ivexje3muwzgozxbrtrie.cloudworkstations.dev/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"

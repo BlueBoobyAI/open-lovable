@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": "public",
+    "rewrites": [{"source": "**", "destination": "/index.html"}]
+  },
+  "emulators": {
+    "ui": {
+      "enabled": true,
+      "host": "127.0.0.1",
+      "port": 4100
+    },
+    "firestore": {
+      "host": "127.0.0.1",
+      "port": 8100
+    },
+    "hosting": {
+      "host": "127.0.0.1",
+      "port": 5100
+    }
+  }
+}

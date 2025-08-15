@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Firebase Prototyper</title>
+    <script src="/__/firebase/init.js"></script>
+</head>
+<body>
+    <h1>Prototyper Ready!</h1>
+    <div id="app"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('app').innerHTML = `
+                <h2>Welcome to your Prototyper</h2>
+                <p>Firebase services are automatically initialized</p>
+            `;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+nohup: ignoring input
+🚀 Starting Prototyper on default port 5000
+⚠  hosting: The hosting emulator is configured but there is no hosting configuration. Have you run firebase init hosting?
+i  emulators: Starting emulators: hosting
+⚠  hosting: The hosting emulator is configured but there is no hosting configuration. Have you run firebase init hosting?
+⚠  hub: Error when trying to check port 4400 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:4400
+⚠  hub: Port 4400 is available on 127.0.0.1 but not ::1. This may cause issues with some clients.
+⚠  hub: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json
+⚠  logging: Error when trying to check port 4500 on ::1: Error: listen EADDRNOTAVAIL: address not available ::1:4500
+⚠  logging: Port 4500 is available on 127.0.0.1 but not ::1. This may cause issues with some clients.
+⚠  logging: If you encounter connectivity issues, consider switching to a different port or explicitly specifying "host": "<ip address>" instead of hostname in firebase.json
+⚠  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project.
+
+[90m┌─────────────────────────────────────────────────────────────┐[39m
+[90m│[39m ✔  All emulators ready! It is now safe to connect your app. [90m│[39m
+[90m└─────────────────────────────────────────────────────────────┘[39m
+
+[90m┌──────────[39m[90m┬──────────────────────────────────┐[39m
+[90m│[39m[33m Emulator [39m[90m│[39m[33m Host:Port                        [39m[90m│[39m
+[90m├──────────[39m[90m┼──────────────────────────────────┤[39m
+[90m│[39m Hosting  [90m│[39m Failed to initialize (see above) [90m│[39m
+[90m└──────────[39m[90m┴──────────────────────────────────┘[39m
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
